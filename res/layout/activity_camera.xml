@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/camera_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".CameraActivity" >
+
+    <SurfaceView
+        android:id="@+id/surface"
+        android:layout_width="320dp"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/server_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="111.11.1.1" />
+
+</RelativeLayout>
